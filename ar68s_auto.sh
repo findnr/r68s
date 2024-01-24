@@ -18,7 +18,7 @@ else
 fi
 
 cd r68s
-
+pwd
 sed -i '$a src-git istore https://github.com/linkease/istore;main' feeds.conf.default
 sed -i '$a src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main' feeds.conf.default
 sed -i '$a src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main' feeds.conf.default
