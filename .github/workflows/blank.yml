@@ -33,15 +33,27 @@ jobs:
       # Runs a single command using the runners shell exce(sh ar68s.sh)
       - name: Run a one-line script
         run: sh ar68s_auto.sh
-      
-     
+        
+      - name: show /mnt/r68s/bin/targets/rockchip/armv8/
+        run: |
+          cd /mnt
+          ls
+          cd r68s
+          ls
+          cd bin
+          ls
+          cd targets
+          ls
+          cd rockchip
+          ls
+          cd armv8
+          ls
           
       - name: Upload release asset
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.CYM_TOKEN }}
           tag: ${{env.strDate}}
-          file_glob: true
           overwrite: true
           release_name: ${{env.strDate}} 自动发布
           file: |
