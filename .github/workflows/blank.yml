@@ -56,4 +56,4 @@ jobs:
           tag: ${{env.strDate}}
           overwrite: true
           release_name: ${{env.strDate}} 自动发布
-          file: /mnt/r68s/bin/targets/rockchip/armv8/
+          file: /mnt/r68s/bin/targets/rockchip/armv8/*
