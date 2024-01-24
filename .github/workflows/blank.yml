@@ -56,6 +56,4 @@ jobs:
           tag: ${{env.strDate}}
           overwrite: true
           release_name: ${{env.strDate}} 自动发布
-          file: |
-            /mnt/r68s/bin/targets/rockchip/armv8/openwrt-rockchip-armv8-fastrhino_r68s-squashfs-sysupgrade.img.gz
-            /mnt/r68s/bin/targets/rockchip/armv8/openwrt-rockchip-armv8-fastrhino_r68s-ext4-sysupgrade.img.gz
+          file: /mnt/r68s/bin/targets/rockchip/armv8/
