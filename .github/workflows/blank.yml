@@ -23,14 +23,18 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@main
-
-      # Runs a single command using the runners shell exce(sh ar68s.sh)
-      - name: Run a one-line script
-        run: sh ar68s_auto.sh
       
       - name: Run a multi-line script
         run: |
           echo "strDate=$(TZ=UTC-8 date +%Y-%m-%d)" >> $GITHUB_ENV
+          sudo chmod 777 /mnt
+          cp r68s.conf /mnt/
+          
+      # Runs a single command using the runners shell exce(sh ar68s.sh)
+      - name: Run a one-line script
+        run: sh ar68s_auto.sh
+      
+     
           
       - name: Upload release asset
         uses: svenstaro/upload-release-action@v2
