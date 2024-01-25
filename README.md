@@ -6,6 +6,8 @@
 - 默认网关：192.168.1.1
 - DNS：223.5.5.5 192.168.1.1
 - linux kernel版本是6.1.x（会根据https://github.com/coolsnowwolf/lede.git版本的升级自动升级）
+- 用户名：root
+- 密码：password
 
 ##### 首先感谢大佬的开源项目，是在他们基础上构建出来的：
 - https://github.com/coolsnowwolf/lede.git
