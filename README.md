@@ -1,6 +1,5 @@
 ## 2024-02-19更新
-- 增加多线多拨  luci-app-mwan3 luci-app-mwan3helper
-- 增加单线多拨 luci-app-syncdial
+- 增加wan口均衡负载，多线多拨，单线多拨  luci-app-mwan3 luci-app-mwan3helper luci-app-syncdial
 ## 2024-02-04更新
 - 固件存储14G太大了，编译出错。修改为5G
 ## 首次发布（2024-01-25）
