@@ -1,3 +1,6 @@
+## （2024-03-03和2024-03-10）这两次没有编译通过是因为新的passwall2中的插件编译时golang的版本要求1.22,但系统中是1.21,所以没有编译成功（2024-03-11）
+- 具体的解决方案在github中有说，能不能成功就不知道了：https://github.com/coolsnowwolf/lede/issues/11921
+- 我没有试，等主库更新。。。
 ## 2024-02-19更新
 - 增加wan口均衡负载，多线多拨，单线多拨  luci-app-mwan3 luci-app-mwan3helper luci-app-syncdial
 ## 2024-02-04更新
