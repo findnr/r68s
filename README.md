@@ -1,4 +1,4 @@
-### 增加了frp、nps 、硬盘休眠的支持（2024-03-30）
+### 增加了frp、nps 、硬盘休眠的支持（2024-04-27）
 - 插件名称：luci-app-frps
 - 插件名称：luci-app-frpc
 - 插件名称：luci-app-nps
