@@ -26,7 +26,7 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.con
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 #修改内核版本
-sed -i 's/KERNEL_PATCHVER:=5.15/KERNEL_PATCHVER:=6.1/g' target/linux/rockchip/Makefile
+sed -i 's/KERNEL_PATCHVER:=6.1/KERNEL_PATCHVER:=6.6/g' target/linux/rockchip/Makefile
 # 修改默认IP为 192.168.1.180
 sed -i 's/192.168.1.1/192.168.1.180/g' package/base-files/files/bin/config_generate
 sed -i "/set network.\$1.proto='static'/{s/$/\n\t\t\t\tset network.\$1.gateway='192.168.1.1'/}" package/base-files/files/bin/config_generate
