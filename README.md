@@ -1,3 +1,7 @@
+### 增加对statistics、wrtbwmon、wireguard的支持（2024-05-06）
+- luci-app-statistics (流量监控工具)
+- luci-app-wrtbwmon (实时流量监测)
+- luci-app-wireguard（wireguard支持）
 ### linux内核升级到6.6 （2024-04-28）
 ### 增加了frp、nps 、硬盘休眠的支持（2024-04-27）
 - 插件名称：luci-app-frps
