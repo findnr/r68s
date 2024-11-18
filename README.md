@@ -1,3 +1,16 @@
+### 增加usb4G 5G网卡的支持、手机usb共享网络的支持
+- kmod-usb-net
+- kmod-usb-core
+- kmod-usb-net-aqc111
+- kmod-usb-net-asix
+- kmod-usb-net-asix-ax88179
+- kmod-usb-net-cdc-eem （usb网上）
+- kmod-usb-net-cdc-ether（usb网上）
+- kmod-usb-net-cdc-mbim（usb网上）
+- kmod-usb-net-cdc-ncm（usb网上）
+- kmod-usb-net-cdc-subset（usb网上）
+- kmod-usb-net-rndis（手机usb共享）
+- usbutils（手机usb共享）
 ### 增加对statistics、wrtbwmon、wireguard的支持（2024-05-06）
 - luci-app-statistics (流量监控工具)
 - luci-app-wrtbwmon (实时流量监测)
