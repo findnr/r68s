@@ -1,4 +1,4 @@
-### 增加usb4G 5G网卡的支持、手机usb共享网络的支持
+### 增加usb4G 5G网卡的支持、手机usb共享网络的支持（2015-11-18）
 - kmod-usb-net
 - kmod-usb-core
 - kmod-usb-net-aqc111
