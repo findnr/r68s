@@ -1,4 +1,4 @@
-### 增加samba4和nfs实现家庭级别的nas系统，通过usb来挂载双硬盘，可以使用软的rdia,再加docker安装Jellyfin来实现影视、音乐、照片来实现本地浏览，再可通过zerotier来实现异地组网，真正实现只要有网就可以使用到家的本址资源（2024-11-24）
+### samba4和nfs实现家庭级别的nas系统，通过usb来挂载双硬盘，可以使用软的rdia,再加docker安装Jellyfin来实现影视、音乐、照片来实现本地浏览，再可通过zerotier来实现异地组网，真正实现只要有网就可以使用到家的本址资源（2024-11-24）
 ### 增加usb4G 5G网卡的支持、手机usb共享网络的支持（2024-11-18）
 - kmod-usb-net
 - kmod-usb-core
