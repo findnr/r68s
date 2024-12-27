@@ -45,4 +45,4 @@ cat ../r68s.conf > ./.config
 sed -i 's/^[ \t]*//g' ./.config
 make defconfig
 make download -j$(nproc)
-make V=s -j$(nproc)
+make V=s -j1
